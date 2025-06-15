@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author"      content="Fernando Begega Suárez">
+  <meta name="description" content="Página de inicio">
+  <meta name="keywords"    content="indice">
+
+  <link rel="icon" href="multimedia/imagenes/favicon.ico">
+
+  <link rel="stylesheet" href="estilo/layout.css">
+  <link rel="stylesheet" href="estilo/estilo.css">
+
+  <link rel="preconnect" href="https://code.jquery.com">
+  
+
+  <title>Riosa: Index</title>
+</head>
+
+<body>
+
+  <header>
+    <h1><a href="index.html">Riosa</a></h1>
+    <nav>
+      <a href="index.html"    class="active">Inicio</a>
+      <a href="gastronomia.html"  >Gastronomía</a>
+      <a href="meteorologia.html" >Meteorología</a>
+      <a href="juego.html"      >Juego</a>
+      <a href="rutas.html"        >Rutas</a>
+      <a href="php/reservas.php"  >Reservas</a>
+      <a href="help.html"        >Ayuda</a>
+    </nav>
+  </header>
+
+  <a href="index.html">Inicio</a>
+
+  <main>
+
+    <article>
+      <h2>Carrusel de Imágenes</h2>
+
+      <img src="multimedia/imagenes/carrussel1.webp"
+           alt="Pueblo de Riosa"
+           width="768" height="512"
+           fetchpriority="high">
+
+      <img src="multimedia/imagenes/carrussel2.webp"
+           alt="Carretera del Angliru"
+           width="768" height="512"
+           loading="lazy">
+
+      <img src="multimedia/imagenes/mina_texeo1.webp"
+           alt="Minas de Texeo"
+           width="768" height="512"
+           loading="lazy">
+
+      <img src="multimedia/imagenes/carrussel4.webp"
+           alt="Montaña l'Angliru"
+           width="768" height="512"
+           loading="lazy">
+
+      <img src="multimedia/imagenes/mapa.webp"
+           alt="Mapa de Riosa"
+           width="768" height="512"
+           loading="lazy">
+
+      <button>&gt;</button>
+      <button>&lt;</button>
+    </article>
+
+  </main>
+
+<script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script defer src="js/carrusel.js"></script>
+  <script defer src="js/noticias.js"></script>
+
+</body>
+</html>

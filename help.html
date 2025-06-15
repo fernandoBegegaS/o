@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Fernando Begega Suárez">
+   <meta name="description" content="Página de ayuda para el sitio web de Riosa">
+   <meta name="keywords" content="ayuda, instrucciones">
+
+   <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+   <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+   <link rel="icon" href="multimedia/imagenes/favicon.ico">
+
+   <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"
+           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+   <title>Riosa: Ayuda</title>
+</head>
+
+<body>
+
+<header>
+   <h1><a href="index.html">Riosa</a></h1>
+
+   <nav>
+      <a href="index.html">Inicio</a>
+      <a href="gastronomia.html">Gastronomía</a>
+      <a href="meteorologia.html">Meteorología</a>
+      <a href="juego.html">Juego</a>
+      <a href="rutas.html">Rutas</a>
+      <a href="php/reservas.php">Reservas</a>
+      <a href="help.html" class="active">Ayuda</a>
+   </nav>
+</header>
+
+<p><a href="index.html">Inicio</a> >> Ayuda</p>
+
+<main>
+
+<h2>Guía rápida de uso de la página web</h2>
+
+<section>
+   <h3>Inicio</h3>
+   <p>La página principal muestra un carrusel automático con cinco fotografías de los lugares más emblemáticos del concejo. Puedes:</p>
+   <ul>
+      <li>Pulsar las flechas para avanzar o retroceder manualmente.</li>
+      <li>Detener el carrusel situando el cursor sobre la imagen.</li>
+   </ul>
+   <p>Debajo del carrusel se carga automáticamente un bloque de noticias recientes acerca de Riosa y su entorno, obtenido mediante servicios web.</p>
+</section>
+
+<section>
+   <h3>Gastronomía</h3>
+   <p>Ofrece una recopilación de la cocina tradicional del concejo:</p>
+   <ul>
+      <li>Una lista ordenada con los platos imprescindibles.</li>
+      <li>Una lista no ordenada con ingredientes habituales — uno de los puntos incluye a su vez una lista anidada.</li>
+      <li>Una lista de definición con términos culinarios.</li>
+      <li>Una tabla accesible y adaptable (2 columnas, 4 filas) donde se comparan precios y temporadas.</li>
+      <li>Recursos multimedia:
+         <ul>
+            <li>Imágenes responsivas.</li>
+            <li>Un vídeo con dos formatos alternativos, reproducible en todos los navegadores modernos.</li>
+            <li>Audio descriptivo, igualmente con doble formato.</li>
+         </ul>
+      </li>
+   </ul>
+</section>
+
+<section>
+   <h3>Meteorología</h3>
+   <p>En esta sección se consultan servicios web meteorológicos para:</p>
+   <ol>
+      <li>Mostrar el tiempo actual en la capital del concejo.</li>
+      <li>Ofrecer la previsión para los próximos siete días.</li>
+   </ol>
+   <p>La información se actualiza en tiempo real cada vez que visitas la página.</p>
+</section>
+
+<section>
+   <h3>Juego</h3>
+   <p>Juego tipo test de 10 preguntas sobre el contenido del sitio:</p>
+   <ul>
+      <li>Cada pregunta tiene cinco posibles respuestas; solo una es correcta.</li>
+      <li>Debes responderlas todas para conocer tu puntuación.</li>
+      <li>Al finalizar, se muestra la nota y un breve mensaje de valoración.</li>
+      <li>El juego se inicia pulsando el botón Iniciar; selecciona las respuestas haciendo clic sobre ellas.</li>
+      <li>Para avanzar a la siguiente pregunta, pulsa el botón Siguiente en la parte superior de la tarjeta.</li>
+      <li>Si deseas reiniciar la partida o comenzar una nueva, pulsa de nuevo el botón Iniciar al pie de la página.</li>
+   </ul>
+</section>
+
+<section>
+   <h3>Rutas</h3>
+   <p>Página interactiva que carga los datos de rutas.xml:</p>
+   <ul>
+      <li>Para cada ruta se muestran datos básicos, descripción y hitos.</li>
+      <li>Botones Ver mapa y Ver perfil:
+         <ul>
+            <li>Ver mapa dibuja la planimetría sobre un mapa dinámico Mapbox.</li>
+            <li>Ver perfil despliega la altimetría en formato SVG.</li>
+            <li>Puedes abrir varios mapas y perfiles a la vez y ocultarlos pulsando de nuevo el botón.</li>
+         </ul>
+      </li>
+   </ul>
+   <p>Recuerda permitir la descarga de archivos si tu navegador lo solicita.</p>
+</section>
+
+<section>
+   <h3>Reservas</h3>
+   <p>Central de reservas de recursos turísticos:</p>
+   <ul>
+      <li>Para poder acceder a la central de reservas debes registrarte con nombre, correo electrónico y contraseña, e iniciar sesión.</li>
+      <li>Si intentas acceder sin iniciar sesión, se te redirigirá a la página de inicio de sesión.</li>
+      <li>En caso de no tener cuenta, dirígete al enlace de registro situado al pie del formulario de inicio de sesión.</li>
+      <li>Después de registrarte, inicia sesión para acceder al panel de reservas.</li>
+      <li>El panel de usuario muestra los recursos disponibles, su aforo, horario y precio.</li>
+      <li>Selecciona el recurso, la fecha y, si procede, el número de personas; pulsa Reservar.</li>
+      <li>Revisa el presupuesto; tras confirmarlo, la reserva queda registrada.</li>
+      <li>Puedes consultar tus reservas y su estado en cualquier momento.</li>
+      <li>Si no vas a utilizar una reserva, puedes anularla desde el mismo panel.</li>
+   </ul>
+</section>
+
+<section>
+   <h3>Ayuda</h3>
+   <p>Estás viendo la página actual. Desde aquí puedes regresar a cualquier sección mediante el menú superior o los enlaces de migas de pan.</p>
+   <p>Si encuentras dificultades que no queden resueltas con esta guía, ponte en contacto a través del apartado Reservas.</p>
+</section>
+
+<article>
+   <h2>Preguntas frecuentes</h2>
+
+   <section>
+      <h4>¿Necesito una cuenta para navegar?</h4>
+      <p>No, todo el contenido es público. Solo es necesaria una cuenta para acceder a la reserva de recursos turísticos.</p>
+   </section>
+
+   <section>
+      <h4>No se carga el mapa de una ruta</h4>
+      <p>Comprueba tu conexión a Internet y que el navegador permite contenido mixto si accedes por HTTPS.</p>
+   </section>
+
+   <section>
+      <h4>El vídeo de gastronomía no se reproduce</h4>
+      <p>Se ofrecen dos formatos. Si ninguno se reproduce, actualiza tu navegador a la versión más reciente o prueba con otro.</p>
+   </section>
+</article>
+
+</main>
+
+<footer>
+   <p>&copy; 2025 Concejo de Riosa — Proyecto académico de UNIOVI</p>
+</footer>
+
+</body>
+</html>

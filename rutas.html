@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    
+   
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+	<link rel="icon" href="multimedia/imagenes/favicon.ico" />
+    
+    <meta charset="UTF-8"/>
+	
+	<meta name = "author" content = "Fernando Begega Suarez"/>
+	<meta name = "description" content = "Informacion de las rutas de la zona"/>
+	
+	<meta name ="keywords" content ="ruta,kml,xml,svg" />
+
+	<meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	
+	<title>F1Desktop Rutas</title>
+</head>
+
+<body>
+	
+	<header>
+        <h1><a href="index.html">Riosa</a></h1>
+        <nav>
+            <a href="index.html" title="Inicio">Inicio</a>
+            <a href="gastronomia.html" title="Gastronomía">Gastronomía</a>
+			<a href="meteorologia.html" title="Meteorologia" >Meteorologia</a>
+            <a href="juego.html" title="Cultura">Juego</a>
+            <a href="rutas.html" title="Turismo" class="active" >Rutas</a>
+            <a href="php/reservas.php" title="Reservas">Reservas</a>
+			<a href="help.html" title="Ayuda">Ayuda</a>
+        </nav>
+    </header>
+
+	<P> <a href="index.html">Inicio</a> >> Rutas</P>
+
+	<h2>Rutas </h2>
+
+	
+	<form>
+		<p>
+			<label for="xmlFile">Seleccione un archivo XML:</label>
+			<input type="file" id="xmlFile" onchange="rutas.readInputFileXML(this.files);">
+		</p>
+	</form>
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+	<script src="js/rutas.js"></script>
+	<main>
+	</main>
+
+
+
+	
+</body>
+</html>

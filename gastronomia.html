@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Fernando Begega Suarez"/>
+    <meta name="description" content="Gastronomía típica del concejo de Riosa"/>
+    <meta name="keywords" content="gastronomía, Riosa, comida típica"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gastronomía de Riosa</title>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css"/>
+    
+    <link rel="icon" href="multimedia/imagenes/favicon.ico"/>
+
+    
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Riosa</a></h1>
+        <nav>
+            <a href="index.html" >Inicio</a>
+            <a href="gastronomia.html"  class="active">Gastronomía</a>
+			<a href="meteorologia.html"  >Meteorologia</a>
+            <a href="juego.html" >Juego</a>
+            <a href="rutas.html" >Rutas</a>
+            <a href="php/reservas.php" >Reservas</a>
+			<a href="help.html" >Ayuda</a>
+        </nav>
+    </header>
+
+    <p><a href="index.html">Inicio</a> >> Gastronomía</p>
+
+    <main>
+        <h2>Gastronomía del Concejo de Riosa</h2>
+
+        <section>
+            <h3>Platos más Representativos</h3>
+            <ol>
+                <li>Fabada de Riosa</li>
+                <li>Cachopo</li>
+                <li>Pote asturiano</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Bebidas Tradicionales</h3>
+            <ul>
+                <li>Sidra de Riosa
+                    <ul>
+                        <li>Sidra Natural</li>
+                        <li>Sidra Dulce</li>
+                        <li>Sidra Espumosa</li>
+                    </ul>
+                </li>
+                <li>Vino de Riosa</li>
+                <li>Orujo de Riosa</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Ingredientes Típicos</h3>
+            <dl>
+                <dt>Fabas</dt>
+                    <dd>Legumbre blanca de gran tamaño utilizada en la fabada típica.</dd>
+                <dt>Cabrales</dt>
+                    <dd>Queso azul fuerte y característico de la región.</dd>
+                <dt>Chorizo</dt>
+                    <dd>Embutido curado con un sabor ahumado y especiado.</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h3>Tabla de Platos y su Origen</h3>
+            <table >
+                <caption>Platos Típicos y su Origen</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Plato</th>
+                        <th scope="col">Origen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fabada de Riosa</td>
+                        <td>Concejo de Riosa</td>
+                    </tr>
+                    <tr>
+                        <td>Cachopo</td>
+                        <td>Concejo de Riosa</td>
+                    </tr>
+                    <tr>
+                        <td>Queso Cabrales</td>
+                        <td>Concejo de Riosa</td>
+                    </tr>
+                    <tr>
+                        <td>Arroz con Leche</td>
+                        <td>Popular en Riosa</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Multimedia: Imágenes y Videos</h3>
+
+            <h4>Restaurante Riosa</h4>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/restaurante-small.png"/>
+                <source media="(max-width: 899px)" srcset="multimedia/imagenes/restaurante-medium.png"/>
+                <source media="(min-width: 900px)" srcset="multimedia/imagenes/restaurante.png"/>
+                <img src="multimedia/imagenes/fabada.jpg" alt="Restaurante El Balcon del Angliru, Riosa"/>
+            </picture>
+
+            <h4>Vídeo: Cómo se sirve la Sidra de Riosa</h4>
+            <video controls style="max-width: 100%; height: auto;">
+                <source src="multimedia/videos/sidra.mp4" type="video/mp4">
+                <source src="multimedia/videos/sidra.webm" type="video/webm">
+                Tu navegador no soporta el formato de video.
+              </video>
+              
+
+        </section>
+    </main>
+
+    <footer>
+        <h5>Más Información</h5>
+        <ul>
+            <li><a href="https://www.turismoriosa.es" title="Turismo de Riosa">Turismo de Riosa</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Gastronom%C3%ADa_de_Asturias" title="Wikipedia Gastronomía de Asturias">Wikipedia Gastronomía de Asturias</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
